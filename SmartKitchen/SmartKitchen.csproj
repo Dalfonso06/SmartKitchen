@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Bootstrap\" />
+    <None Remove="Bootstrap\css\" />
+    <None Remove="Bootstrap\js\" />
+    <None Remove="fontawesome\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Bootstrap\" />
+    <Folder Include="Bootstrap\css\" />
+    <Folder Include="Bootstrap\js\" />
+    <Folder Include="fontawesome\" />
+  </ItemGroup>
+</Project>
